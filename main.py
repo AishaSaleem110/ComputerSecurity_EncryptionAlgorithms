@@ -2,6 +2,8 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-import as2634_task1
+from as2634_task2 import generate_prime_factors
 
+
+print(generate_prime_factors(26))
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
