@@ -1,5 +1,13 @@
 import random
+ """
+    Naive RSA encryption system implementation.
 
+    The program will take as input the security parameter nu. It will then generate the two nu/2-bit primes, and the
+    integers N; e and d. It will then prompt the user to choose one of the two options - encryption and decryption.
+    If the user chooses encryption, the program will prompt the user to enter an element from the plaintext space
+    Z=NZ and provide its encryption. If the user chooses decryption, the program will prompt the user to enter an
+    element from the ciphertext space Z=NZ and provide its decryption.
+    """
 
 def exponential(base: int, power: int) -> int:
     """
