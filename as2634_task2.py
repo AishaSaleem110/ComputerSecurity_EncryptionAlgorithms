@@ -1,5 +1,14 @@
 import random
 
+"""
+Task 2: Goldwasser-Micali encryption system implementation. 
+The program will take as input the security parameter nu. It will then generate the two nu/2-bit primes, and the
+integers N and y. It will then prompt the user to choose one of the two options - encryption and decryption.
+If the user chooses encryption, the program will then prompt the user to enter an element from the set {0,1}
+and provide its encryption. If the user chooses decryption, the program will then prompt the user to enter an
+element from the set JN and provide its decryption.
+
+"""
 
 def generate_prime_factors(n: int) -> dict:
     """
