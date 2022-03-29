@@ -1,5 +1,16 @@
 # To show RSA encryption scheme is not IND-CCA secure
 
+"""
+Task 4: IND-CCA security. 
+In each of the tasks below, you will have to demonstrate that the the decryption
+of a ciphertext and its related but modifed form can lead us to the same plaintext.
+
+Write a program to demonstrate that Naive RSA is insecure with respect to an IND-CCA adversary. The
+program will take as input a public key (N; e) and a ciphertext c created by the program written for Task
+1. It will then output the modied ciphertext c0 = 2^e . c (mod N). It will then output the element 2^1
+(mod N). It will take as input the message m0 found by decrypting c0 using the program written for Task
+1. It will finally output the original message m that was encrypted to c.
+"""
 
 def print_separators() -> None:
     """
