@@ -1,6 +1,13 @@
 import random
 
+"""
+Write a program to demonstrate that Goldwasser-Micali encryption scheme is insecure with respect to an
+IND-CCA adversary. The program will take as input a public key (N; y) and a ciphertext c created by the
+program written for Task 2. It will then output the modied ciphertext c' = c . z^2 (mod N) for a random
+z belongs (Z=NZ)*. This modifed ciphertext c' = c . z^2 (mod N) can be decrypted using the program you have
+written for Task 2 to check if the decryption is correct.
 
+"""
 # To show GoldWasser Micali encryption scheme is not IND-CCA secure
 
 def print_separators() -> None:
